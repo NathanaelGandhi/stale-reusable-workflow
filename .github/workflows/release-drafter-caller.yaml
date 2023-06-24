@@ -1,4 +1,5 @@
 name: 'Release Drafter Caller'
+
 on:
   push:
     # branches to consider in the event; optional, defaults to all
