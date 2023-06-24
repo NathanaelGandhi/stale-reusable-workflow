@@ -2,6 +2,7 @@ name: 'Stale Issues and PRs Caller'
 
 on:
   schedule:
+    # run stale daily at 01:30
     - cron: '30 1 * * *'
   workflow_dispatch:
 
